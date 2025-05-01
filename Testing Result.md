@@ -9,9 +9,7 @@ Both tools are run side by side, and the differences in their outputs are examin
 
 Below are the screenshots of **MyTop** and **top** running simultaneously on the system:
 
-![Top Command vs. MyTop] (C:\Users\Clevo\Pictures\Screenshots\Screenshot (649).png)
-
-*Note: Replace the above image path with the actual path of your screenshot in your repo or use an external URL.*
+![Top Command vs. MyTop] (Testing Result.png)
 
 ## Comparison Criteria
 
