@@ -9,7 +9,7 @@ Both tools are run side by side, and the differences in their outputs are examin
 
 Below are the screenshots of **MyTop** and **top** running simultaneously on the system:
 
-![Top Command vs. MyTop] (https://github.com/Speedylo/MyTop/blob/d6cae1afd4190085e46e206acee9672423dbf81c/Testing%20Result.png)
+![Top Command vs. MyTop](https://github.com/Speedylo/MyTop/blob/d6cae1afd4190085e46e206acee9672423dbf81c/Testing%20Result.png)
 
 ## Comparison Criteria
 
