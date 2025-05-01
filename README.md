@@ -3,7 +3,7 @@
 
 **MyTop** is a lightweight, Bash-based system monitor that mimics the functionality of the Unix `top` command. It displays real-time information about system processes, CPU and memory usage, and allows interactive control over how processes are displayed.
 
----
+
 
 ## 🖥️ How to Use the Script
 
@@ -19,7 +19,7 @@
 
 3. Interact with the monitor using your keyboard (see below).
 
----
+
 
 ## 🧭 Command-line Options & Interactive Commands
 
@@ -38,7 +38,7 @@ The script runs in a loop and waits for user input after every refresh.
 
 > ⚠️ Note: The space bar input is treated as a **NULL** character (empty input), and is used to refresh the display without changing sort mode.
 
----
+
 
 ## ⚙️ Implementation Details
 
@@ -64,7 +64,7 @@ The script runs in a loop and waits for user input after every refresh.
 - **Sorting:**
   - Controlled by a `sort_processes` function that adjusts based on key input.
 
----
+
 
 ## ⚠️ Known Limitations
 
@@ -80,7 +80,7 @@ The script runs in a loop and waits for user input after every refresh.
 - **No Mouse Support:**
   - This is a CLI-only tool; mouse or GUI interaction is not supported.
 
----
+
 
 ## 🚀 Future Improvements
 
