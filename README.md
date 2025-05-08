@@ -1,11 +1,11 @@
 
-# 🧵 MyTop - Custom System Monitor
+# MyTop - Custom System Monitor
 
 **MyTop** is a lightweight, Bash-based system monitor that mimics the functionality of the Unix `top` command. It displays real-time information about system processes, CPU and memory usage, and allows interactive control over how processes are displayed.
 
 
 
-## 🖥️ How to Use the Script
+## How to Use the Script
 
 1. Make the script executable:
    ```bash
@@ -21,7 +21,7 @@
 
 
 
-## 🧭 Command-line Options & Interactive Commands
+## Command-line Options & Interactive Commands
 
 The script runs in a loop and waits for user input after every refresh.
 
@@ -36,11 +36,11 @@ The script runs in a loop and waits for user input after every refresh.
 | `Space`| Refresh process list               |
 | `h`    | Show help message                  |
 
-> ⚠️ Note: The space bar input is treated as a **NULL** character (empty input), and is used to refresh the display without changing sort mode.
+> ⚠ Note: The space bar input is treated as a **NULL** character (empty input), and is used to refresh the display without changing sort mode.
 
 
 
-## ⚙️ Implementation Details
+## Implementation Details
 
 - **Process Data:**
   - Uses the `ps` command with `--sort` to retrieve and sort process data.
@@ -66,7 +66,7 @@ The script runs in a loop and waits for user input after every refresh.
 
 
 
-## ⚠️ Known Limitations
+## Known Limitations
 
 - **TIME Precision:**
   - Uses the `time` field from `ps`, which has lower precision than `top`'s `TIME+`.
@@ -82,7 +82,7 @@ The script runs in a loop and waits for user input after every refresh.
 
 
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Add support for sorting by command name or priority.
 - Visual CPU and memory bars.
